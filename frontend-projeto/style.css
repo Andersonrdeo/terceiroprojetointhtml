@@ -1,0 +1,227 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a1ff98;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+  main {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  section {
+    display: none;
+  }
+  
+  section.visible {
+    display: block;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+  }
+  
+  form input:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #e7f3ff;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #009cde;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  form button:hover {
+    background-color: #007bb2;
+  }
+  
+  form p {
+    text-align: center;
+  }
+  
+  form a {
+    color: #009cde;
+    text-decoration: none;
+  }
+  
+  form a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #ff2a00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #e50000;
+  }
+  
+  #esportesFavoritos {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .esporte {
+    text-align: center;
+    border: 2px solid #00b140;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f0fdf0;
+  }
+  
+  .esporte img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  
+  #esportes {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #f3e700; 
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+  }
+  
+  #esportes:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #e7f3ff;
+  }
+  
+  
+  h1 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 20px;
+  }
+  
+  
+  #login, #cadastro {
+    padding: 20px;
+    background-color: #73ff64;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #login h1, #cadastro h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  
+  #login input, #cadastro input {
+    border-color: #ddd;
+  }
+  
+  #login button, #cadastro button {
+    background-color: #009cde;
+    font-weight: bold;
+  }
+  
+  
+  #login p a, #cadastro p a {
+    color: #009cde;
+  }
+  
+  #login p a:hover, #cadastro p a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  #home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #home h1 {
+    color: #009cde; 
+  }
+  
+  #home p {
+    color: #333;
+  }
+  
+  
+  section p {
+    margin-top: 10px;
+  }
+  
+  
+  button {
+    padding: 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c82333;
+  }
+  
+  
+  .visible {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+  
